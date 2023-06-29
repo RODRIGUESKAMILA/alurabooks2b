@@ -67,18 +67,39 @@
     <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
+
+</div>
+
+ <div class="card">
+    <div class="card__descrição">
+        <div class="descrição">
+            <h3 class="descrição__titulo">Talvez voce tambem se interesse por...</h3>
+            <h2 class="descrição__titulo-livro">Angular 11 e Firebase</h2>
+            <p class="descrição__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+        </div>
+        <img src="img/Angular.png" class="descrição__imagem">
+    </div>
+    <div class="card__botoẽs">
+        <ul class="botoẽs">
+            <li class="botoẽs__item"><img src="img/favoritos.svg"></li>
+            <li class="botoẽs__item"><img src="img/compras.svg"></li>
+        </ul>
+        <a href="#" class="botoẽs__ancora">Saiba mais</a>
+    </div>
   
     <!-- If we need scrollbar -->
     <div class="swiper-scrollbar"></div>
-  </div>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-        <script>const swiper = new Swiper('.swiper', {
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+        const swiper = new Swiper('.swiper', {
         spaceBetween: 10,
         slidesPerView: 1, }
-         pagination: {
-    el: '.swiper-pagination',
-    type: 'bullets',
-  },
+        pagination: {
+               el: '.swiper-pagination',
+               type:'bullets',
+            }, 
+        }); 
       </script>
 </body>
         
